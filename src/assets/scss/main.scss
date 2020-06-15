@@ -1,0 +1,73 @@
+$c-gray: #707070;
+$blue-color: #171df9;
+$text-blue-color: #001b9b;
+html {
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    .support-tabs {
+        a {
+            color: $c-gray !important;
+            outline: 0;
+        }
+        .nav-tabs .nav-link {
+            margin-bottom: 0 !important;
+            border: 0 !important;
+            &.active {
+                color: $text-blue-color !important;
+                border-bottom: 2px solid $blue-color !important;
+            }
+        }
+        .nav-tabs .nav-item {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.border-bottom-0 {
+    border-bottom: 0 !important;
+    th {
+        border-bottom: 0 !important;
+    }
+}
+.table.stats-table {
+    td, th {
+        border-color: #dee2e6b8 !important;
+    }
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #4691f6;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+}
